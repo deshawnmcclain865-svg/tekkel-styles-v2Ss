@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "skinmenu",
+  "version": "${version}",
+  "name": "Skin Menu",
+  "description": "Drücke L und tausche Inventar-Texturen und Hintergründe gegen eigene Bilder aus.",
+  "authors": ["Du"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.skinmenu.SkinMenuClient"] },
+  "mixins": ["skinmenu.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
